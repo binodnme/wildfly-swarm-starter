@@ -1,0 +1,10 @@
+swarm:
+  http:
+    port: 8081
+  datasources:
+    data-sources:
+      MyDS:
+        driver-name: postgresql
+        connection-url: jdbc:postgresql://localhost:5437/jpa_commons_test_db
+        user-name: postgres
+        password: postgres
